@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-PacoDemo.Processor-e2037e94-3b27-4e0f-939e-34d939eab9ef</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.RabbitMQ.Client" Version="13.2.1" />
+    <PackageReference Include="MassTransit" Version="8.*" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.*" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="10.0.5" />
+    <PackageReference Include="PdfPig" Version="0.1.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PacoDemo.Contracts\PacoDemo.Contracts.csproj" />
+    <ProjectReference Include="..\PacoDemo.ServiceDefaults\PacoDemo.ServiceDefaults.csproj" />
+  </ItemGroup>
+</Project>

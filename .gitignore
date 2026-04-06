@@ -1,0 +1,38 @@
+# Build outputs
+bin/
+obj/
+out/
+
+# .NET
+*.user
+*.suo
+.vs/
+_ReSharper*/
+*.DotSettings.user
+
+# Aspire / Secrets
+**/Properties/launchSettings.json
+**/.secrets/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# wwwroot (built from frontend)
+PacoDemo.Api/wwwroot/
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local

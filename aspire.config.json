@@ -1,0 +1,6 @@
+{
+  "appHost": {
+    "language": "csharp",
+    "path": "paco-demo.AppHost/paco-demo.AppHost.csproj"
+  }
+}
