@@ -32,7 +32,7 @@ The API and Processor communicate over RabbitMQ, so the Processor can run on a s
 - Pull the required models:
   ```bash
   ollama pull nomic-embed-text
-  ollama pull mistral
+  ollama pull llama3.2
   ```
 
 `nomic-embed-text` generates embeddings for semantic search. `mistral` (or any chat model) answers questions. See the Configuration section to change the LLM.
