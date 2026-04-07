@@ -76,7 +76,7 @@ Navigate to `http://localhost:5000`.
 {
   "Ollama": {
     "BaseUrl": "http://localhost:11434",
-    "LlmModel": "mistral"
+    "LlmModel": "llama3.2"
   }
 }
 ```
